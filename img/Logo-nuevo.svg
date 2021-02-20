@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="369.212" height="436.866" viewBox="0 0 369.212 436.866">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        font-size: 60px;
+        font-family: ArialMT, Arial;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="Subtraction_2" data-name="Subtraction 2" class="cls-1" d="M160.121,369.212h0L.242,276.909V197.928l29.334,8.695v53.194l129.817,74.97,129.819-74.97V236.95L35.961,169.092.032,158.442V123.827l.209.057V92.3l.036-.02L0,92.121,160,0l.061.035L160.121,0l44.346,25.6L320,92.121l-.158.09L320,92.3v78.8l-30.786-9.125v-52.1L159.394,34.909,29.576,109.879v21.864l256.5,68.729L320,210.527v66.382l-159.878,92.3Z" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="Group_15" data-name="Group 15" transform="translate(-774.973 -522.134)">
+    <g id="Group_6" data-name="Group 6" class="cls-2" transform="translate(1144.185 522.134) rotate(90)">
+      <g id="Cubo_S" data-name="Cubo S" transform="translate(0.991 0.379)">
+        <path id="Polygon_7" data-name="Polygon 7" class="cls-1" d="M276.107,0l92.036,159.4L276.107,318.8H92.036L0,159.4,92.036,0Z" transform="translate(318.805 0) rotate(90)"/>
+      </g>
+    </g>
+    <text id="_" data-name="&lt; / &gt;" class="cls-3" transform="translate(900 946)"><tspan x="0" y="0">&lt; / &gt;</tspan></text>
+  </g>
+</svg>

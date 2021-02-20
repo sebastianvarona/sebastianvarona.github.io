@@ -1,0 +1,229 @@
+body {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.titulo_categoria {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.parrafo_categoria {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ingles {
+  font-size: 300;
+}
+
+.cutter-inv img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+/* INICIO */
+.wrapper_borroso {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  background: url("../img/Neon.png");
+  background-size: cover;
+  position: relative;
+  -webkit-animation: hue 6s infinite;
+          animation: hue 6s infinite;
+}
+
+.wrapper_borroso .contenedor_titulos {
+  position: absolute;
+  top: 30%;
+  left: 0;
+}
+
+.wrapper_borroso .titulo {
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-weight: 800;
+}
+
+.wrapper_borroso .subtitulo {
+  font-size: 110px;
+  color: white;
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+  font-weight: 800;
+}
+
+.wrapper_borroso .eslogan {
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+}
+
+.wrapper_borroso .cutter {
+  position: absolute;
+  bottom: -12px;
+}
+
+.wrapper_borroso .cutter img {
+  width: 100%;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+.cutter {
+  position: relative;
+  bottom: -4px;
+  width: 100% !important;
+}
+
+/* ACERCA DE */
+.acerca_de {
+  color: #ff7f11;
+  position: relative;
+}
+
+.acerca_de p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.acerca_de .responsive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.acerca_de .responsive img {
+  width: 80%;
+}
+
+/* TECNOLOGIAS */
+.tecnologias {
+  background-color: #333333;
+  background-image: url(../img/patron.svg);
+  background-repeat: repeat;
+  background-size: 220px;
+  color: #3ab795;
+}
+
+.tecnologias h2 {
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.tecnologias p {
+  opacity: 0.8;
+  color: white;
+}
+
+.tecnologias .row {
+  padding: 0;
+}
+
+.tecnologias .col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tecnologias .col-4 img {
+  padding: 20px 0;
+  width: 30%;
+}
+
+.tecnologias .izquierdo {
+  margin-left: auto;
+}
+
+.tecnologias .derecho {
+  margin-right: auto;
+}
+
+/* SERVICIOS */
+.servicios h2 {
+  color: #ff7f11;
+}
+
+.servicios a {
+  color: #ff7f11;
+}
+
+.servicios a:hover {
+  color: #3ab795;
+}
+
+.servicios .cita {
+  font-weight: 300;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.servicios .enlace {
+  font-size: 1.2rem;
+}
+
+.servicios .tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicios .tarjeta img {
+  width: 70%;
+}
+
+.servicios .clientes {
+  position: relative;
+}
+
+.servicios .clientes img {
+  width: 100%;
+}
+
+.servicios p {
+  color: rgba(0, 0, 0, 0.7);
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2081" height="2474" viewBox="0 0 2081 2474">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: #ff7f11;
+      }
+
+      .cls-2 {
+        opacity: 0.7;
+      }
+
+      .cls-3, .cls-4 {
+        stroke: #ff7f11;
+        stroke-width: 3px;
+      }
+
+      .cls-3 {
+        font-size: 554px;
+        font-family: ArialMT, Arial;
+      }
+
+      .cls-4 {
+        font-size: 200px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: snow;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-8 {
+        filter: url(#Rectangle_21);
+      }
+
+      .cls-9 {
+        filter: url(#Rectangle_20);
+      }
+    </style>
+    <filter id="Rectangle_20" x="30" y="30" width="2021" height="2414" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_21" x="0" y="0" width="2081" height="2474" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="20" result="blur-2"/>
+      <feFlood flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="codigo" transform="translate(-1852.333 -3501)">
+    <path id="laptop" class="cls-1" d="M1381.5,66.255c65.743-3.269,86.814,60.986,86.814,89.245V955.106H169.526V155.5c0-28.259,11.948-93.936,86.307-89.245ZM255.833,2a153.5,153.5,0,0,0-153.5,153.5v869.833H1535V155.5A153.5,153.5,0,0,0,1381.5,2ZM0,1053.5H1637.333c0,84.776-67.177,83.349-151.952,83.349H155.048C70.272,1136.849,0,1138.276,0,1053.5Z" transform="translate(2074.333 4434)"/>
+    <path id="laptop-2" data-name="laptop" class="cls-2" d="M1332.924,62.826c63.458-3.094,83.8,57.731,83.8,84.481V904.233H163.07V147.307c0-26.75,11.533-88.922,83.308-84.481ZM246.378,2C164.548,2,98.212,67.056,98.212,147.307V970.712H1481.09V147.307C1481.09,67.056,1414.754,2,1332.924,2Z" transform="translate(2102.657 4456.851)"/>
+    <text id="_" data-name="&lt;/&gt;" class="cls-3" transform="translate(2492.5 5195.5)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+    <text id="Código_bajo_demanda" data-name="Código bajo
+demanda" class="cls-4" transform="translate(2893 4116)"><tspan x="-615.7" y="0">Código bajo</tspan><tspan x="-499.4" y="200">demanda</tspan></text>
+    <g id="Group_8" data-name="Group 8" transform="translate(-161.667 -1614)">
+      <g class="cls-9" transform="matrix(1, 0, 0, 1, 2014, 5115)">
+        <g id="Rectangle_20-2" data-name="Rectangle 20" class="cls-5" transform="translate(60 60)">
+          <rect class="cls-6" width="1961" height="2354" rx="250"/>
+          <rect class="cls-7" x="0.5" y="0.5" width="1960" height="2353" rx="249.5"/>
+        </g>
+      </g>
+      <g class="cls-8" transform="matrix(1, 0, 0, 1, 2014, 5115)">
+        <g id="Rectangle_21-2" data-name="Rectangle 21" class="cls-5" transform="translate(60 60)">
+          <rect class="cls-6" width="1961" height="2354" rx="250"/>
+          <rect class="cls-7" x="0.5" y="0.5" width="1960" height="2353" rx="249.5"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
