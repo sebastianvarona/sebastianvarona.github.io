@@ -1,288 +1,55 @@
-/* COLORES */
-$naranja: #ff6a07;
-$verde: #3ab795;
-$gris: #43444d;
+$verdeOsc: #00a859;
+$verdeCla: #a8d046;
+$naraja: #f58634;
+$gris: #f8f9fa;
 
 body {
-  position: relative;
-  font-size: 18px;
-  font-family: "Poppins", sans-serif;
-  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
 }
-.titulo_categoria {
-  font-size: 3rem;
-  font-weight: 700;
-  text-align: center;
-  text-decoration: underline;
+section {
+  padding: 3rem 0;
 }
-.parrafo_categoria {
-  font-size: 1.5rem;
-
-  margin-bottom: 0;
-  align-self: center;
-}
-.ingles {
-  font-size: 300;
-}
-.cutter-inv img {
-  transform: rotate(180deg);
-  position: relative;
-  top: -4px;
-}
-/* INICIO */
-header {
-  .navbar {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    transition: all 0.5s ease;
-    padding: 15px 0;
-    z-index: 200;
-    .container {
-      position: relative;
-      .navbar-brand {
-        background-image: url("../img/logoN.svg");
-        background-size: contain;
-        background-repeat: no-repeat;
-        transition: all 0.5s ease;
-        height: 40px;
-        width: 50px;
-      }
-    }
-  }
-  .sticky {
-    position: fixed !important;
-    top: 0;
-    left: 0;
-    box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
-    padding: 5px 0 !important;
-    background: white;
-    .container .navbar-brand {
-      background-image: url("../img/logoNnegro.svg");
-      height: 30px;
-    }
-    .container .collapse .navbar-nav .nav-item {
-      .nav-link {
-        color: rgba(0, 0, 0, 0.75);
-      }
-      .active {
-        color: black;
-      }
-    }
-  }
-}
-
 .cutter {
-  position: relative;
-  bottom: -4px;
-  width: 100% !important;
-}
-/* TITULOS */
-.titulos {
-  font-family: "Poppins", sans-serif;
-  background-color: black;
-  height: 100vh;
-  width: 100%;
-  background: url("../img/Prueba10.png");
-  background-size: cover;
-  position: relative;
-  animation: hue 6s infinite;
-  .contenedor_titulos {
-    margin-top: 250px;
-  }
-
-  .titulo {
-    margin-top: 75px;
-    font-size: 2.5rem;
-    color: rgba(255, 255, 255, 0.8);
-    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
-  }
-  .subtitulo {
-    font-size: 3rem;
-    color: white;
-    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
-  }
-  .eslogan {
-    font-size: 1.25rem;
-    color: rgba(255, 255, 255, 0.5);
-  }
-  .cutter {
-    position: absolute;
-    left: 0;
-    bottom: -12px;
-    img {
-      width: 100%;
-    }
-  }
-}
-@keyframes hue {
-  from {
-    filter: hue-rotate(0);
-  }
-  to {
-    filter: hue-rotate(360deg);
-  }
-}
-
-/* ACERCA DE */
-.acerca_de {
-  color: $naranja;
-  position: relative;
-  p {
-    color: rgba(0, 0, 0, 0.7);
-  }
-  .responsive {
-    display: flex;
-    justify-content: right;
-    align-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  img {
     position: relative;
-    img {
-      z-index: 10;
-      width: 70%;
-    }
-    &::after {
-      content: url("../img/fresp.svg");
-      position: absolute;
-      bottom: -100px;
-      left: 100px;
-      z-index: 9;
-    }
-  }
-}
-
-/* TECNOLOGIAS */
-.tecnologias {
-  background-color: #333333;
-  background-image: url(../img/patron.svg);
-  background-repeat: repeat;
-  background-size: 220px;
-  color: #3ab795;
-  h2 {
-    margin-top: 0;
-    opacity: 0.8;
-  }
-  p {
-    opacity: 0.8;
-    color: white;
-  }
-  .row {
-    padding: 0;
-  }
-  .col-4 {
-    display: flex;
-    justify-content: center;
-    img {
-      padding: 20px 0;
-      width: 30%;
-    }
-  }
-  .izquierdo {
-    margin-left: auto;
-  }
-  .derecho {
-    margin-right: auto;
-  }
-}
-
-/* SERVICIOS */
-.servicios {
-  h2 {
-    color: #ff7f11;
-  }
-  a {
-    color: #ff7f11;
-    &:hover {
-      color: #3ab795;
-    }
-  }
-  .cita {
-    font-weight: 300;
-    opacity: 0.7;
-    font-style: italic;
-  }
-  .enlace {
-    font-size: 1.2rem;
-  }
-  .tarjeta {
-    display: flex;
-    justify-content: center;
-    img {
-      width: 70%;
-    }
-  }
-  .clientes {
-    position: relative;
-    padding: 0;
-    img {
-      width: 100%;
-    }
-  }
-  .cli {
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
-    opacity: 0;
-    transition: all 0.5s ease;
-    &:hover {
-      opacity: 1;
-    }
-  }
-  p {
-    color: rgba(0, 0, 0, 0.7);
+    bottom: -3px;
+    left: 0;
   }
 }
-
-.contacto {
-  background-color: #333333;
-  background-image: url(../img/patron.svg);
-  background-repeat: repeat;
-  background-size: 220px;
-  color: #3ab795;
-
-  p {
-    color: white;
-    opacity: 0.8;
-  }
-  .enviar {
-    background-color: $verde;
-    color: white;
-    padding: 10px 60px;
-    margin: auto;
-    border-radius: 10px;
-    border: none;
-    display: block;
+.cutter-inv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  img {
+    position: relative;
+    transform: rotate(180deg);
+    width: 100%;
+    top: -3px;
+    left: 0;
   }
 }
-#status.success {
-  animation: status 3s ease forwards;
-  color: $verde !important;
+.subtitulo {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
 }
-#status.error {
-  animation: status 3s ease forwards;
-  color: $naranja !important;
+.parrafo {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
 }
-@keyframes status {
-  0% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  90% {
-    opacity: 1;
-    pointer-events: all;
-  }
-  100% {
-    opacity: 0;
-    pointer-events: none;
+.imagen {
+  img {
+    width: 100%;
+    border-radius: 15px;
   }
 }
-footer {
-  p {
-    color: black;
-    opacity: 0.8;
-  }
-  .copy {
-    font-size: 0.8rem;
-  }
+.naranja {
+  color: $naraja;
 }
+@import "header";
+@import "inicio";
