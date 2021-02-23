@@ -1,0 +1,373 @@
+/* COLORES */
+body {
+  position: relative;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.titulo_categoria {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.parrafo_categoria {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.ingles {
+  font-size: 300;
+}
+
+.cutter-inv img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  position: relative;
+  top: -4px;
+}
+
+/* INICIO */
+header .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 15px 0;
+  z-index: 200;
+}
+
+header .navbar .container {
+  position: relative;
+}
+
+header .navbar .container .navbar-brand {
+  background-image: url("../img/logoN.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 40px;
+  width: 50px;
+}
+
+header .sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+  padding: 5px 0 !important;
+  background: white;
+}
+
+header .sticky .container .navbar-brand {
+  background-image: url("../img/logoNnegro.svg");
+  height: 30px;
+}
+
+header .sticky .container .collapse .navbar-nav .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+header .sticky .container .collapse .navbar-nav .nav-item .active {
+  color: black;
+}
+
+.cutter {
+  position: relative;
+  bottom: -4px;
+  width: 100% !important;
+}
+
+/* TITULOS */
+.titulos {
+  font-family: "Poppins", sans-serif;
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  background: url("../img/Prueba10.png");
+  background-size: cover;
+  position: relative;
+  -webkit-animation: hue 6s infinite;
+          animation: hue 6s infinite;
+}
+
+.titulos .contenedor_titulos {
+  margin-top: 250px;
+}
+
+.titulos .titulo {
+  margin-top: 75px;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulos .subtitulo {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.titulos .eslogan {
+  font-size: 1.25rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.titulos .cutter {
+  position: absolute;
+  left: 0;
+  bottom: -12px;
+}
+
+.titulos .cutter img {
+  width: 100%;
+}
+
+@-webkit-keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hue {
+  from {
+    -webkit-filter: hue-rotate(0);
+            filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+            filter: hue-rotate(360deg);
+  }
+}
+
+/* ACERCA DE */
+.acerca_de {
+  color: #ff6a07;
+  position: relative;
+}
+
+.acerca_de p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.acerca_de .responsive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+}
+
+.acerca_de .responsive img {
+  z-index: 10;
+  width: 70%;
+}
+
+.acerca_de .responsive::after {
+  content: url("../img/fresp.svg");
+  position: absolute;
+  bottom: -100px;
+  left: 100px;
+  z-index: 9;
+}
+
+/* TECNOLOGIAS */
+.tecnologias {
+  background-color: #333333;
+  background-image: url(../img/patron.svg);
+  background-repeat: repeat;
+  background-size: 220px;
+  color: #3ab795;
+}
+
+.tecnologias h2 {
+  margin-top: 0;
+  opacity: 0.8;
+}
+
+.tecnologias p {
+  opacity: 0.8;
+  color: white;
+}
+
+.tecnologias .row {
+  padding: 0;
+}
+
+.tecnologias .col-4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.tecnologias .col-4 img {
+  padding: 20px 0;
+  width: 30%;
+}
+
+.tecnologias .izquierdo {
+  margin-left: auto;
+}
+
+.tecnologias .derecho {
+  margin-right: auto;
+}
+
+/* SERVICIOS */
+.servicios h2 {
+  color: #ff7f11;
+}
+
+.servicios a {
+  color: #ff7f11;
+}
+
+.servicios a:hover {
+  color: #3ab795;
+}
+
+.servicios .cita {
+  font-weight: 300;
+  opacity: 0.7;
+  font-style: italic;
+}
+
+.servicios .enlace {
+  font-size: 1.2rem;
+}
+
+.servicios .tarjeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.servicios .tarjeta img {
+  width: 70%;
+}
+
+.servicios .clientes {
+  position: relative;
+  padding: 0;
+}
+
+.servicios .clientes img {
+  width: 100%;
+}
+
+.servicios .cli {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.servicios .cli:hover {
+  opacity: 1;
+}
+
+.servicios p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.contacto {
+  background-color: #333333;
+  background-image: url(../img/patron.svg);
+  background-repeat: repeat;
+  background-size: 220px;
+  color: #3ab795;
+}
+
+.contacto p {
+  color: white;
+  opacity: 0.8;
+}
+
+.contacto .enviar {
+  background-color: #3ab795;
+  color: white;
+  padding: 10px 60px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+
+#status.success {
+  -webkit-animation: status 3s ease forwards;
+          animation: status 3s ease forwards;
+  color: #3ab795 !important;
+}
+
+#status.error {
+  -webkit-animation: status 3s ease forwards;
+          animation: status 3s ease forwards;
+  color: #ff6a07 !important;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+footer p {
+  color: black;
+  opacity: 0.8;
+}
+
+footer .copy {
+  font-size: 0.8rem;
+}
+/*# sourceMappingURL=style.css.map */
