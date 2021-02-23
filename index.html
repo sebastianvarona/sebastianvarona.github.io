@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <title>Sebastián Varona</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicones.ico/favicon.ico" type="image/x-icon">
+
+    <title>Desarrollador Web</title>
 </head>
-<body>
-    <div class="wrapper_borroso">
-        <header>
+<body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+        <header id="inicio">
             <nav class="navbar navbar-expand-lg navbar-dark pt-3">
                 <div class="container">
                   <a class="navbar-brand me-auto" href="#">
-                      <img src="img/Logo-nuevo.svg" height="70px" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -23,45 +23,47 @@
                   <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Tecnologías</a>
+                        <a class="nav-link" href="#tecnologias">Tecnologías</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Proyectos</a>
+                        <a class="nav-link" href="#portafolio">Portafolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#contacto">Contacto</a>
                       </li>
-                      <li class="nav-item ingles">
+                      <!-- INGLES -->
+ <!--                      <li class="nav-item ingles">
                       <a class="nav-link ms-3 ingles" href="#">/ English</a>
-                      </li>
+                      </li> -->
                   </div>
                 </div>
-              </nav>
+            </nav>
+        </header>
+    <main>
+        <!-- TITULOS -->
+        <section class="titulos">
             <div class="container">
                 <div class="row">
                     <div class="col-12 contenedor_titulos">
-                        <h1 class="titulo">Desarrollador Web</h1>
-                        <h2 class="subtitulo">Front-End</h2>
-                        <p class="eslogan">Creando sitios web que atraen</p>
+                        <h1 class="titulo">Sebastián Varona.</h1>
+                        <h2 class="subtitulo">Desarrollador Web Front-End.</h2>
                     </div>
                 </div>
             </div>
             <div class="cutter">
-                <img src="img/Cutter.svg" alt="">
+                <img src="img/cutterN2.svg" alt="">
             </div>
-        </header>
-    </div>
-    <main>
+        </section>
         <!-- ACERCA DE -->
         <section class="acerca_de">
             <div class="container ">
                 <div class="row mb-5">
                     <h2 class="acerca_de titulo_categoria mt-5">Acerca de</h2>
                     <div class="col-12 col-md-6 mt-5">
-                        <p class="parrafo_categoria pt-auto">Hola! Mi nombre es Sebastián 
+                        <p class="parrafo_categoria">Hola! Mi nombre es Sebastián 
                             Varona y soy desarrollador web 
                             Front-End. Programo y diseño tu sitio
                             web desde cero, creando un producto 
@@ -76,9 +78,9 @@
             </div>
         </section>
         <!-- TECNOLOGIAS -->
-        <section class="tecnologias">
+        <section class="tecnologias" id="tecnologias">
             <div class="cutter-inv">
-                <img src="img/Cutter.svg" class="w-100" alt="">
+                <img src="img/cutterN4.svg" class="w-100" alt="">
             </div>
             <div class="container">
                 <h2 class="titulo_categoria pt-3">Tecnologías</h2>
@@ -124,18 +126,18 @@
                     </div>
             </div>
             <div class="cutter">
-                <img src="img/Cutter.svg" class="w-100" alt="">
+                <img src="img/cutterN4.svg" class="w-100" alt="">
             </div>
         </section>
-        <!-- SERVICIOS -->
-        <section class="servicios">
-            <h2 class="titulo_categoria pt-3">Servicios</h2>
+        <!-- PORTAFOLIO -->
+        <section class="servicios" id="portafolio">
+            <h2 class="titulo_categoria pt-3">Portafolio</h2>
             <div class="container">
                 <p class="parrafo_categoria text-center pt-3 cita">
                     “La recompensa del trabajo bien hecho es la oportunidad de hacer más trabajo bien hecho”
                 </p>
                 <p class="parrafo_categoria text-center">
-                    ¿Quieres conocer todos mis servicios? <a href="#" class="enlace">Contáctame</a>
+                    ¿Quieres conocer todos mis servicios? <a href="#contacto" class="enlace">Contáctame</a>
                 </p>
                 <div class="row pt-4">
                     <div class="col-4 tarjeta">
@@ -157,26 +159,72 @@
                     <div class="row pt-5">
                         <div class="col-3 clientes">
                             <img src="img/clientes/calimaico.svg" alt="">
+                            <a href="https://www.calimafarms.com"><img src="img/clientes/Visitar.svg" class="cli" alt=""></a>
                         </div>
                         <div class="col-3 clientes">
                             <img src="img/clientes/tortugaico.svg" alt="">
+                            <img src="img/clientes/desarrollo.svg" class="cli" alt="">
                         </div>
                         <div class="col-3 clientes">
                             <img src="img/clientes/adagroico.svg" alt="">
+                            <img src="img/clientes/desarrollo.svg" class="cli" alt="">
                         </div>
                         <div class="col-3 clientes">
                             <img src="img/clientes/mfico.svg" alt="">
+                            <img src="img/clientes/desarrollo.svg" class="cli" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- CONTACTO -->
-        <section class="contacto">
-            <h2 class="titulo_categoria mt-5"></h2>
+        <section class="contacto" id="contacto">
+            <div class="cutter-inv">
+                <img src="img/cutterN4.svg" class="w-100" alt="">
+            </div>
+            <h2 class="titulo_categoria">Contáctame</h2>
+            <p class="text-center parrafo_categoria">¿Interesado en iniciar un proyecto? 
+                <br>Llena el siguiente formuario y me contactaré contigo lo antes posible.</p>
+                <div class="container py-5 px-5">
+                    <form action="formulario.php" method="POST">
+                            <div class="row">
+                            <div class="mb-3 col-lg-6 col-12">
+                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                                <input type="text" name="nombre" class="form-control" id="exampleFormControlInput1" placeholder="Nombre" required>
+                              </div>
+                            <div class="mb-3 col-md-6 col-12 required">
+                                <label for="exampleFormControlInput2" class="form-label">Correo</label>
+                                <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="tucorreo@ejemplo.com" required>
+                            </div>
+                            <div class="mb-3 col-12">
+                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                                <textarea type="text" name="mensaje" class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Escribe tu mensaje..." required></textarea>
+                            </div>
+                            <div class="col-12">
+                                <input type="submit" value="Enviar" class="enviar ms-auto me-auto">
+                            </div>
+                        </div>
+                        </form>
+                </div>
         </section>
 
     </main>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center py-5">
+                    <img src="img/logoNnegro.svg" height="60px" alt="">
+                </div>
+                <div class="col-12">
+                    <p class="text-center">Aprendiendo cada dia <br>Un dia a la vez.</p>
+                </div>
+                <div class="col-12 pt-2">
+                    <p class="text-center fw-light copy">Sitio desarrollado por mi © 2021</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/animaciones.js"></script>
 </body>
 </html>

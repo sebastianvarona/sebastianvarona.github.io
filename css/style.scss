@@ -1,4 +1,10 @@
+/* COLORES */
+$naranja: #ff6a07;
+$verde: #3ab795;
+$gris: #43444d;
+
 body {
+  position: relative;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -20,53 +26,96 @@ body {
 }
 .cutter-inv img {
   transform: rotate(180deg);
+  position: relative;
+  top: -4px;
 }
 /* INICIO */
-.wrapper_borroso {
+header {
+  .navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.5s ease;
+    padding: 15px 0;
+    z-index: 200;
+    .container {
+      position: relative;
+      .navbar-brand {
+        background-image: url("../img/logoN.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        transition: all 0.5s ease;
+        height: 40px;
+        width: 50px;
+      }
+    }
+  }
+  .sticky {
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+    padding: 5px 0 !important;
+    background: white;
+    .container .navbar-brand {
+      background-image: url("../img/logoNnegro.svg");
+      height: 30px;
+    }
+    .container .collapse .navbar-nav .nav-item {
+      .nav-link {
+        color: rgba(0, 0, 0, 0.75);
+      }
+      .active {
+        color: black;
+      }
+    }
+  }
+}
+
+.cutter {
+  position: relative;
+  bottom: -4px;
+  width: 100% !important;
+}
+/* TITULOS */
+.titulos {
   font-family: "Poppins", sans-serif;
   background-color: black;
   height: 100vh;
   width: 100%;
-  background: url("../img/Neon.png");
+  background: url("../img/Prueba10.png");
   background-size: cover;
   position: relative;
   animation: hue 6s infinite;
   .contenedor_titulos {
-    position: absolute;
-    top: 30%;
-    left: 0;
+    margin-top: 250px;
   }
+
   .titulo {
-    font-size: 80px;
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    font-weight: 800;
+    margin-top: 75px;
+    font-size: 2.5rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
   }
   .subtitulo {
-    font-size: 110px;
+    font-size: 3rem;
     color: white;
-    text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    position: relative;
-    bottom: 60px;
-    font-weight: 800;
+    text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
   }
   .eslogan {
-    font-size: 2rem;
-    color: white;
-    text-align: center;
-    position: relative;
-    bottom: 50px;
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.5);
   }
   .cutter {
     position: absolute;
+    left: 0;
     bottom: -12px;
     img {
       width: 100%;
     }
   }
 }
-
 @keyframes hue {
   from {
     filter: hue-rotate(0);
@@ -75,14 +124,10 @@ body {
     filter: hue-rotate(360deg);
   }
 }
-.cutter {
-  position: relative;
-  bottom: -4px;
-  width: 100% !important;
-}
+
 /* ACERCA DE */
 .acerca_de {
-  color: #ff7f11;
+  color: $naranja;
   position: relative;
   p {
     color: rgba(0, 0, 0, 0.7);
@@ -91,8 +136,17 @@ body {
     display: flex;
     justify-content: right;
     align-content: center;
+    position: relative;
     img {
-      width: 80%;
+      z-index: 10;
+      width: 70%;
+    }
+    &::after {
+      content: url("../img/fresp.svg");
+      position: absolute;
+      bottom: -100px;
+      left: 100px;
+      z-index: 9;
     }
   }
 }
@@ -159,11 +213,54 @@ body {
   }
   .clientes {
     position: relative;
+    padding: 0;
     img {
       width: 100%;
     }
   }
+  .cli {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    &:hover {
+      opacity: 1;
+    }
+  }
   p {
     color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.contacto {
+  background-color: #333333;
+  background-image: url(../img/patron.svg);
+  background-repeat: repeat;
+  background-size: 220px;
+  color: #3ab795;
+
+  p {
+    color: white;
+    opacity: 0.8;
+  }
+  .enviar {
+    background-color: $verde;
+    color: white;
+    padding: 10px 60px;
+    margin: auto;
+    border-radius: 10px;
+    border: none;
+    display: block;
+  }
+}
+footer {
+  p {
+    color: black;
+    opacity: 0.8;
+  }
+  .copy {
+    font-size: 0.8rem;
   }
 }

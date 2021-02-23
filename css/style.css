@@ -1,4 +1,6 @@
+/* COLORES */
 body {
+  position: relative;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   color: white;
@@ -26,58 +28,107 @@ body {
 .cutter-inv img {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
+  position: relative;
+  top: -4px;
 }
 
 /* INICIO */
-.wrapper_borroso {
+header .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  padding: 15px 0;
+  z-index: 200;
+}
+
+header .navbar .container {
+  position: relative;
+}
+
+header .navbar .container .navbar-brand {
+  background-image: url("../img/logoN.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  height: 40px;
+  width: 50px;
+}
+
+header .sticky {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 -3px 15px rgba(0, 0, 0, 0.4);
+  padding: 5px 0 !important;
+  background: white;
+}
+
+header .sticky .container .navbar-brand {
+  background-image: url("../img/logoNnegro.svg");
+  height: 30px;
+}
+
+header .sticky .container .collapse .navbar-nav .nav-item .nav-link {
+  color: rgba(0, 0, 0, 0.75);
+}
+
+header .sticky .container .collapse .navbar-nav .nav-item .active {
+  color: black;
+}
+
+.cutter {
+  position: relative;
+  bottom: -4px;
+  width: 100% !important;
+}
+
+/* TITULOS */
+.titulos {
   font-family: "Poppins", sans-serif;
   background-color: black;
   height: 100vh;
   width: 100%;
-  background: url("../img/Neon.png");
+  background: url("../img/Prueba10.png");
   background-size: cover;
   position: relative;
   -webkit-animation: hue 6s infinite;
           animation: hue 6s infinite;
 }
 
-.wrapper_borroso .contenedor_titulos {
-  position: absolute;
-  top: 30%;
-  left: 0;
+.titulos .contenedor_titulos {
+  margin-top: 250px;
 }
 
-.wrapper_borroso .titulo {
-  font-size: 80px;
+.titulos .titulo {
+  margin-top: 75px;
+  font-size: 2.5rem;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titulos .subtitulo {
+  font-size: 3rem;
+  color: white;
+  text-shadow: 2px 3px 10px rgba(0, 0, 0, 0.7);
+}
+
+.titulos .eslogan {
+  font-size: 1.25rem;
   color: rgba(255, 255, 255, 0.5);
-  text-align: center;
-  font-weight: 800;
 }
 
-.wrapper_borroso .subtitulo {
-  font-size: 110px;
-  color: white;
-  text-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
-  text-align: center;
-  position: relative;
-  bottom: 60px;
-  font-weight: 800;
-}
-
-.wrapper_borroso .eslogan {
-  font-size: 2rem;
-  color: white;
-  text-align: center;
-  position: relative;
-  bottom: 50px;
-}
-
-.wrapper_borroso .cutter {
+.titulos .cutter {
   position: absolute;
+  left: 0;
   bottom: -12px;
 }
 
-.wrapper_borroso .cutter img {
+.titulos .cutter img {
   width: 100%;
 }
 
@@ -103,15 +154,9 @@ body {
   }
 }
 
-.cutter {
-  position: relative;
-  bottom: -4px;
-  width: 100% !important;
-}
-
 /* ACERCA DE */
 .acerca_de {
-  color: #ff7f11;
+  color: #ff6a07;
   position: relative;
 }
 
@@ -128,10 +173,20 @@ body {
           justify-content: right;
   -ms-flex-line-pack: center;
       align-content: center;
+  position: relative;
 }
 
 .acerca_de .responsive img {
-  width: 80%;
+  z-index: 10;
+  width: 70%;
+}
+
+.acerca_de .responsive::after {
+  content: url("../img/fresp.svg");
+  position: absolute;
+  bottom: -100px;
+  left: 100px;
+  z-index: 9;
 }
 
 /* TECNOLOGIAS */
@@ -217,13 +272,60 @@ body {
 
 .servicios .clientes {
   position: relative;
+  padding: 0;
 }
 
 .servicios .clientes img {
   width: 100%;
 }
 
+.servicios .cli {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.servicios .cli:hover {
+  opacity: 1;
+}
+
 .servicios p {
   color: rgba(0, 0, 0, 0.7);
+}
+
+.contacto {
+  background-color: #333333;
+  background-image: url(../img/patron.svg);
+  background-repeat: repeat;
+  background-size: 220px;
+  color: #3ab795;
+}
+
+.contacto p {
+  color: white;
+  opacity: 0.8;
+}
+
+.contacto .enviar {
+  background-color: #3ab795;
+  color: white;
+  padding: 10px 60px;
+  margin: auto;
+  border-radius: 10px;
+  border: none;
+  display: block;
+}
+
+footer p {
+  color: black;
+  opacity: 0.8;
+}
+
+footer .copy {
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=style.css.map */
