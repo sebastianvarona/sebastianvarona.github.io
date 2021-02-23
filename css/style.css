@@ -320,6 +320,48 @@ header .sticky .container .collapse .navbar-nav .nav-item .active {
   display: block;
 }
 
+#status.success {
+  -webkit-animation: status 3s ease forwards;
+          animation: status 3s ease forwards;
+  color: #3ab795 !important;
+}
+
+#status.error {
+  -webkit-animation: status 3s ease forwards;
+          animation: status 3s ease forwards;
+  color: #ff6a07 !important;
+}
+
+@-webkit-keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
+
 footer p {
   color: black;
   opacity: 0.8;

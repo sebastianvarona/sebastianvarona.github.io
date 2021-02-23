@@ -255,6 +255,28 @@ header {
     display: block;
   }
 }
+#status.success {
+  animation: status 3s ease forwards;
+  color: $verde !important;
+}
+#status.error {
+  animation: status 3s ease forwards;
+  color: $naranja !important;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
 footer {
   p {
     color: black;
