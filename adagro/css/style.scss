@@ -1,0 +1,58 @@
+$verdeOsc: #00a859;
+$verdeCla: #a8d046;
+$naraja: #f58634;
+$gris: #ececec;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+section {
+  padding: 3rem 0;
+}
+.navbar-light .navbar-toggler {
+  border: none;
+}
+.cutter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  img {
+    position: relative;
+    width: 100%;
+    bottom: -3px;
+    left: 0;
+  }
+}
+.cutter-inv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  img {
+    position: relative;
+    transform: rotate(180deg);
+    width: 100%;
+    top: -3px;
+    left: 0;
+  }
+}
+.subtitulo {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.parrafo {
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+.imagen {
+  img {
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+.naranja {
+  color: $naraja;
+}
+@import "header";
+@import "inicio";
