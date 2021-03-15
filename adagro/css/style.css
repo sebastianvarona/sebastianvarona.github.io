@@ -13,6 +13,7 @@ section {
 
 .cutter {
   position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
 }
@@ -27,6 +28,7 @@ section {
 .cutter-inv {
   position: absolute;
   top: 0;
+  width: 100%;
   left: 0;
 }
 
@@ -57,6 +59,26 @@ section {
 
 .naranja {
   color: #f58634;
+}
+
+.verde {
+  color: #00a859;
+}
+
+.banner {
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  top: 70px;
+  background-size: cover;
+  background-color: #ececec;
+  margin-bottom: 50px;
+}
+
+.banner .titulo {
+  font-weight: 700;
+  color: white;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header {
@@ -100,7 +122,7 @@ header .menu-sec ul li a {
   text-decoration: none;
 }
 
-.banner {
+.bannerInicio {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -110,7 +132,7 @@ header .menu-sec ul li a {
   background-color: #ececec;
 }
 
-.banner .titulo {
+.bannerInicio .tituloInicio {
   position: relative;
   font-size: 3rem;
   top: 230px;
@@ -119,17 +141,17 @@ header .menu-sec ul li a {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.banner .titulo .amarillo {
+.bannerInicio .tituloInicio .amarillo {
   color: #ffeb00;
   font-size: 5rem;
 }
 
-.banner .titulo .azul {
+.bannerInicio .tituloInicio .azul {
   color: #4191ff;
   font-size: 5rem;
 }
 
-.banner .titulo .rojo {
+.bannerInicio .tituloInicio .rojo {
   color: #ff0000;
   font-size: 5rem;
 }
@@ -745,5 +767,162 @@ header .menu-sec ul li a {
   100% {
     content: "4.8";
   }
+}
+
+.bannerDesarrollo {
+  background-image: url("../img/bannerDesarrollo.png");
+  background-position: bottom;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor .boton {
+  padding: 10px 20px;
+  background-color: #00a859;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 60px;
+  margin-bottom: 100px;
+}
+
+.subtitulo_Ver {
+  color: #00a859;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.economia-circular {
+  position: relative;
+}
+
+.economia-circular .autor {
+  color: #a8d046;
+  font-style: italic;
+  font-weight: 300;
+}
+
+.economia-circular .diferencia {
+  position: relative;
+  background-color: #ececec;
+  padding-top: 100px;
+  padding-bottom: 200px;
+}
+
+.economia-circular .ilustraciones .imagen {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.economia-circular .ilustraciones .imagen img {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.economia-circular .referentes {
+  position: relative;
+  background-color: #ececec;
+  padding-top: 100px;
+}
+
+.economia-circular .referentes .imagen {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.economia-circular .referentes .imagen img {
+  width: 80%;
+  margin: 50px 0;
+}
+
+.izq {
+  text-align: start;
+}
+
+.der {
+  text-align: end;
+}
+
+.bioeconomia {
+  padding: 0;
+}
+
+.bioeconomia .col-12 {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+}
+
+.bioeconomia .col-12 .parrafo {
+  text-align: start;
+}
+
+.bioeconomia .imagen img {
+  max-height: 440px;
+}
+
+.bioeconomia .objetivos {
+  position: relative;
+  padding-top: 100px;
+  background-color: #ececec;
+}
+
+.negocios ul {
+  list-style: url("../img/desa7.svg");
+}
+
+.negocios ul li {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.negocios .img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: top;
+      -ms-flex-align: top;
+          align-items: top;
+}
+
+.negocios .img .imagen {
+  width: 60%;
+  max-height: 400px;
+}
+
+.negocios .img .imagen img {
+  width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
