@@ -821,14 +821,23 @@ header .menu-sec ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .economia-circular .ilustraciones .imagen img {
-  width: 80%;
+  width: 70%;
   margin: 50px 0;
+}
+
+.economia-circular .ilustraciones .uno {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+}
+
+.economia-circular .ilustraciones .dos {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .economia-circular .referentes {
@@ -850,6 +859,22 @@ header .menu-sec ul li a {
 .economia-circular .referentes .imagen img {
   width: 80%;
   margin: 50px 0;
+}
+
+.economia-circular .referentes table {
+  background-color: #a9d0462d;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.economia-circular .referentes table th {
+  font-size: 30px;
+  background-color: #00a85a85;
+  color: white;
+}
+
+.economia-circular .referentes table td {
+  font-size: 1.25rem;
 }
 
 .izq {
@@ -908,9 +933,9 @@ header .menu-sec ul li a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
   -webkit-box-align: top;
       -ms-flex-align: top;
           align-items: top;
