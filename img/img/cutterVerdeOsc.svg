@@ -1,0 +1,120 @@
+<svg id="cutterVerdeOsc" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1369" height="301.389" viewBox="0 0 1369 301.389">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f0f0f0;
+      }
+
+      .cls-2 {
+        fill: #e4f1f1;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        stroke: #707070;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-6 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-8 {
+        clip-path: url(#clip-path-4);
+      }
+
+      .cls-9 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-10, .cls-11, .cls-12 {
+        fill: #00a859;
+      }
+
+      .cls-10 {
+        opacity: 0.5;
+      }
+
+      .cls-11 {
+        opacity: 0.56;
+      }
+
+      .cls-13 {
+        clip-path: url(#clip-path-5);
+      }
+
+      .cls-14 {
+        clip-path: url(#clip-path-6);
+      }
+
+      .cls-15 {
+        fill: rgba(255,255,255,0.3);
+      }
+
+      .cls-16 {
+        fill: rgba(255,255,255,0.6);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_50" data-name="Rectangle 50" class="cls-1" width="1318" height="301"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_16" data-name="Path 16" class="cls-2" d="M419.355,1132.888l314.926,142.964L314.926,142.963,0,0Z" transform="translate(0)"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <path id="Path_15" data-name="Path 15" class="cls-3" d="M0,906.715,1480.857,358.554,1643.626,0,162.769,548.161Z" transform="translate(0)"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <path id="Path_14" data-name="Path 14" class="cls-3" d="M0,989.31,1481.286,440.99,1681.478,0,200.191,548.32Z" transform="translate(0 0)"/>
+    </clipPath>
+    <clipPath id="clip-path-5">
+      <rect id="Rectangle_120" data-name="Rectangle 120" class="cls-4" width="1369" height="152.889"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="Rectangle_119" data-name="Rectangle 119" class="cls-4" width="1369" height="188"/>
+    </clipPath>
+  </defs>
+  <g id="Group_97" data-name="Group 97" transform="translate(3 0)">
+    <g id="Mask_Group_2" data-name="Mask Group 2" class="cls-5">
+      <g id="Group_36" data-name="Group 36" transform="translate(-242.936 -477.538)">
+        <g id="Mask_Group_1" data-name="Mask Group 1" class="cls-6" transform="matrix(-0.616, 0.788, -0.788, -0.616, 1457.454, 785.493)">
+          <g id="cutter" class="cls-7" transform="translate(-43.857 1623.374) rotate(-90)">
+            <g id="cutter-blanco" class="cls-8" transform="translate(-58.062 45.306)">
+              <g id="custom_1" data-name="custom – 1" transform="translate(-43.647 0.541)">
+                <path id="Path_13" data-name="Path 13" class="cls-9" d="M0,962.54,1475.461,416.376,1664.479,0,189.017,546.164Z" transform="translate(60.353 0)"/>
+                <g id="Grupo_1" data-name="Grupo 1" transform="translate(0 2.466)">
+                  <path id="back" class="cls-10" d="M1756.111,0l-27.558,10.335c-48.152,10.273-180.23,60.9-312.136,160.9s-377.031,286.931-481.5,325.7c-104.91,39.752-197.708,36.2-311.1,68.517C507.443,596.8,477.9,651.6,361.663,716.635c-116.68,66.02-179.082,89.643-237.089,88.912L67.263,836.259,0,986.371l1570.336-588.9,126.242-273.115" transform="translate(8.741 -28.01) rotate(1)"/>
+                  <path id="middle" class="cls-11" d="M1629.652,108.306l-95.528,202.121L0,878.306,52.991,761.574l56.59-16.076c62.812-23.567,155.157-89.31,266.405-146.936,110.918-56.9,102.466-57.054,217.671-90.615,112.033-33.933,210.088-55.064,312.53-93.289,102.111-37.5,329.666-211.752,454.631-284.782S1582.85,9.507,1630.85,3.637L1675.046,0" transform="translate(60.511 72.94)"/>
+                  <path id="front" class="cls-12" d="M1636.968,151.6l-91.24,192.622L0,916.391,67.739,767.173l43.278,7.952c47.436-1.779,338.321-200.255,454.666-234.671,113.107-34.688,241.943-57.015,345.149-95.507,102.892-37.8,329.144-182.629,451.593-263.511s271.358-158.611,319.891-171.1L1710.24,0" transform="translate(0.316 84.287)"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <path id="Path_17" data-name="Path 17" class="cls-12" d="M166.53,449.88l167.855,76.2L167.855,76.2,0,0Z" transform="matrix(0.616, -0.788, 0.788, 0.616, 50.833, 722.476)"/>
+      </g>
+    </g>
+  </g>
+  <g id="cutter-2" data-name="cutter" class="cls-13" transform="translate(0 148.5)">
+    <g id="cutter-blanco-2" data-name="cutter-blanco" class="cls-14" transform="translate(0 19.389)">
+      <g id="custom_1-2" data-name="custom – 1" transform="translate(-54.903 0.22)">
+        <rect id="Rectangle_118" data-name="Rectangle 118" class="cls-9" width="1364.012" height="177.544" transform="translate(60.236 0)"/>
+        <g id="Grupo_1-2" data-name="Grupo 1" transform="translate(0 5.394)">
+          <path id="back-2" data-name="back" class="cls-15" d="M1460.249,91.324h-25.477c-48.391-3.938-169.947-3.384-266.728,22.182s-276.087,73.627-372.869,73.42c-96.781.207-201.667-19.2-311.574-24.359-113.708-6.221-119.248,15.9-216.03,26.746-96.781,11.263-154.36,11.375-219.181,0L0,193.977v63.18H1451.72l4.292-114.218" transform="translate(0 -89.52)"/>
+          <path id="middle-2" data-name="middle" class="cls-16" d="M1422.437,101.166l-4.193,85.469H0V136.86l54.773,2.5c57.908-.162,127.357-16.338,221.907-24.766,94.551-8.118,85.079-9.8,196.164-5.147,107.372,3.863,205.671,11.636,300.222,11.48,94.551.155,259.506-45.985,361.528-59.706s186-19.569,236.376-13.471l47.275,6.521" transform="translate(55.958 -18.98)"/>
+          <path id="front-2" data-name="front" class="cls-3" d="M1433.192,84.887l-4.22,81.414H0V102.674L52.1,114.96c51.813,8.088,274.923-38.45,386.844-34.016,108.185,3.68,240.084,16.68,335.349,16.532,95.265.148,273.617-31.157,368.882-49.381s221.521-29.811,269.151-27h25.814" transform="translate(14.005 15.269)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

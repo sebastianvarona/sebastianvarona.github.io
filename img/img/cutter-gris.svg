@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="802" height="126" viewBox="0 0 802 126">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-4 {
+        fill: rgba(240,240,240,0.3);
+      }
+
+      .cls-5 {
+        fill: rgba(240,240,240,0.6);
+      }
+
+      .cls-6 {
+        fill: #f0f0f0;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" width="802" height="126" transform="translate(0 303.249)"/>
+    </clipPath>
+  </defs>
+  <g id="cutter-gris" class="cls-2" transform="translate(0 -303.249)">
+    <g id="custom_1" data-name="custom – 1" transform="translate(-61.836 300.563)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-3" width="826.441" height="165.036" transform="translate(35.297)"/>
+      <g id="Grupo_1" data-name="Grupo 1" transform="translate(0 5.014)">
+        <path id="back" class="cls-4" d="M882.833,91.2h-15.4c-29.258-3.661-102.746-3.147-161.257,20.619s-166.916,68.44-225.428,68.247c-58.512.193-121.923-17.844-188.37-22.643-68.745-5.783-72.095,14.778-130.608,24.862-58.512,10.47-93.322,10.574-132.512,0L0,186.617v58.729H877.677l2.6-106.171" transform="translate(0 -89.52)"/>
+        <path id="middle" class="cls-5" d="M860.676,97.233l-2.537,79.448H0V130.412l33.141,2.321c35.039-.15,77.06-15.187,134.27-23.021,57.21-7.546,51.479-9.112,118.693-4.784,64.97,3.593,124.446,10.816,181.656,10.671,57.21.144,157.019-42.745,218.75-55.5S799.054,41.909,829.535,47.578l28.605,6.06" transform="translate(32.79 -20.837)"/>
+        <path id="front" class="cls-6" d="M866.885,80.362l-2.552,75.678H0V96.9l31.514,11.42C62.853,115.834,197.8,72.574,265.5,76.7c65.437,3.421,145.218,15.5,202.84,15.367,57.622.137,165.5-28.962,223.123-45.9s133.989-27.711,162.8-25.1h15.615" transform="translate(8.207 12.739)"/>
+      </g>
+    </g>
+  </g>
+</svg>
