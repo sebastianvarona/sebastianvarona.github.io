@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1380.986" height="152.889" viewBox="0 0 1380.986 152.889">
+  <defs>
+    <style>
+      .cls-1, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-4 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-5 {
+        fill: rgba(255,255,255,0.3);
+      }
+
+      .cls-6 {
+        fill: rgba(255,255,255,0.6);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_130" data-name="Rectangle 130" class="cls-1" width="1380.986" height="152.889"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_129" data-name="Rectangle 129" class="cls-1" width="1381" height="188" transform="translate(0 0)"/>
+    </clipPath>
+  </defs>
+  <g id="cutter" class="cls-2">
+    <g id="cutter-blanco" class="cls-3" transform="translate(0 19.389)">
+      <g id="custom_1" data-name="custom – 1" transform="translate(-55.383 0.22)">
+        <rect id="Rectangle_128" data-name="Rectangle 128" class="cls-4" width="1375.954" height="177.544" transform="translate(60.763 0)"/>
+        <g id="Grupo_1" data-name="Grupo 1" transform="translate(0 5.394)">
+          <path id="back" class="cls-5" d="M1473.033,91.324h-25.7c-48.815-3.938-171.434-3.384-269.063,22.182s-278.5,73.627-376.134,73.42c-97.629.207-203.432-19.2-314.3-24.359-114.7-6.221-120.293,15.9-217.921,26.746-97.628,11.263-155.711,11.375-221.1,0L0,193.977v63.18H1464.43l4.33-114.218" transform="translate(0 -89.52)"/>
+          <path id="middle" class="cls-6" d="M1434.89,101.166l-4.23,85.469H0V136.86l55.252,2.5c58.415-.162,128.472-16.338,223.85-24.766,95.378-8.118,85.824-9.8,197.881-5.147,108.313,3.863,207.472,11.636,302.85,11.48,95.379.155,261.778-45.985,364.693-59.706s187.628-19.569,238.446-13.471l47.689,6.521" transform="translate(56.448 -18.98)"/>
+          <path id="front" class="cls-7" d="M1445.74,84.887l-4.257,81.414H0V102.674L52.557,114.96c52.267,8.088,277.33-38.45,390.231-34.016,109.132,3.68,242.186,16.68,338.285,16.532,96.1.148,276.013-31.157,372.111-49.381s223.46-29.811,271.507-27h26.041" transform="translate(14.128 15.27)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
