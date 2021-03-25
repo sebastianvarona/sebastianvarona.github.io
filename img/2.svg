@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="108.025" height="142.778" viewBox="0 0 108.025 142.778">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #0054a8;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.8);
+        font-size: 20px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        filter: url(#Icon_awesome-css3-alt);
+      }
+    </style>
+    <filter id="Icon_awesome-css3-alt" x="0" y="0" width="108.025" height="123.029" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_2" data-name="2" transform="translate(-225.769 -133.222)">
+    <g id="CSS3" transform="translate(234.769 139.222)">
+      <g id="Rectangle_16" data-name="Rectangle 16" class="cls-1" transform="translate(14.629 12.378)">
+        <rect class="cls-4" width="63.018" height="74.271"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="62.018" height="73.271"/>
+      </g>
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, -9, -6)">
+        <path id="Icon_awesome-css3-alt-2" data-name="Icon awesome-css3-alt" class="cls-2" d="M0,2.25,8.182,95.041l36.831,12.238L81.843,95.041,90.025,2.25ZM73.4,21.005,72.278,32.094,45.247,43.652l-.07.023h26.14l-3,34.369L45.294,84.773,22.131,77.927,20.631,60.6H32.095l.75,8.979L45.177,72.7,58,69.089l.867-14.442L19.881,54.53v-.023l-.047.023L18.99,43.676,45.27,32.727l1.524-.633H17.982l-1.36-11.089Z" transform="translate(9 3.75)"/>
+      </g>
+    </g>
+    <text id="CSS3-2" data-name="CSS3" class="cls-3" transform="translate(305.606 269)"><tspan x="-50.7" y="0">CSS3</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="457.5" height="401.208" viewBox="0 0 457.5 401.208">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.05;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-width: 4px;
+        opacity: 0.1;
+      }
+    </style>
+  </defs>
+  <g id="fresp" transform="translate(-11418.898 1312.31) rotate(-42)">
+    <path id="fresp-2" data-name="fresp" class="cls-1" d="M149.226-.22C200.074-32,313.6,28.809,250.956,117.593s51.706,160.473-8.411,210.719-107.65-22.029-167.767-72.275-113.416-40.8-72.7-128.71S98.378,31.561,149.226-.22Z" transform="translate(9207.251 7044.442) rotate(-72)"/>
+    <path id="Path_39" data-name="Path 39" class="cls-2" d="M9407.021,6810.5s17.034,27.621,44.672,39.981,65.878,9.461,65.878,9.461"/>
+    <path id="Path_40" data-name="Path 40" class="cls-2" d="M9616.5,6925.776s8.614,43.954-10.8,66.075-67.072,35.7-82.922,62.989"/>
+    <path id="Path_41" data-name="Path 41" class="cls-2" d="M9616.5,6925.776s8.614,43.954-10.8,66.075-65.909,41.973-103.426,39.176" transform="matrix(0.53, 0.848, -0.848, 0.53, 10215.069, -4721.315)"/>
+    <path id="Path_42" data-name="Path 42" class="cls-2" d="M9611.558,6903.776s-6.674,37.213-23.741,73.4-48.025,56.643-85.542,53.846" transform="matrix(-0.829, 0.559, -0.559, -0.829, 21081.375, 7326.765)"/>
+  </g>
+</svg>
