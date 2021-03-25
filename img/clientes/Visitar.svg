@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1650" height="950" viewBox="0 0 1650 950">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #389c81;
+        stroke: #707070;
+      }
+
+      .cls-3 {
+        fill: #42b797;
+      }
+
+      .cls-4 {
+        fill: #fefefe;
+        stroke: #fefefe;
+        stroke-width: 3px;
+        font-size: 100px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+
+      .cls-7 {
+        filter: url(#Rectangle_27);
+      }
+
+      .cls-8 {
+        filter: url(#Rectangle_26);
+      }
+    </style>
+    <filter id="Rectangle_26" x="0" y="0" width="1650" height="950" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur"/>
+      <feFlood flood-opacity="0.302"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_27" x="275" y="257" width="1101" height="430" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="25" result="blur-2"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Visitar" transform="translate(-2838 -3564)">
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, 2838, 3564)">
+      <rect id="Rectangle_26-2" data-name="Rectangle 26" class="cls-1" width="1500" height="800" rx="150" transform="translate(75 72)"/>
+    </g>
+    <g id="Group_13" data-name="Group 13" transform="translate(63)">
+      <g class="cls-7" transform="matrix(1, 0, 0, 1, 2775, 3564)">
+        <g id="Rectangle_27-2" data-name="Rectangle 27" class="cls-2" transform="translate(350 332)">
+          <rect class="cls-5" width="951" height="280" rx="100"/>
+          <rect class="cls-6" x="0.5" y="0.5" width="950" height="279" rx="99.5"/>
+        </g>
+      </g>
+      <rect id="Rectangle_29" data-name="Rectangle 29" class="cls-3" width="951" height="255" rx="100" transform="translate(3125 3896)"/>
+    </g>
+    <text id="Visitar_Sitio" data-name="Visitar Sitio" class="cls-4" transform="translate(3664 4059)"><tspan x="-272.65" y="0">Visitar Sitio</tspan></text>
+  </g>
+</svg>

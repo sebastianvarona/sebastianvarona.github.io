@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="239.237" height="443.627" viewBox="0 0 239.237 443.627">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #3f84e5;
+        stroke-linecap: round;
+        stroke-width: 20px;
+        opacity: 0.6;
+      }
+    </style>
+  </defs>
+  <path id="linea" class="cls-1" d="M16242.666,7816.857c146.584,149.649,219.5-47.736,395.051,106" transform="matrix(0.259, 0.966, -0.966, 0.259, 3466.271, -17695.043)"/>
+</svg>

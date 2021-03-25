@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116" height="142.762" viewBox="0 0 116 142.762">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #8100e0;
+      }
+
+      .cls-3 {
+        fill: rgba(255,255,255,0.8);
+        font-size: 20px;
+        font-family: Poppins-Regular, Poppins;
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+
+      .cls-6 {
+        filter: url(#Icon_awesome-bootstrap);
+      }
+    </style>
+    <filter id="Icon_awesome-bootstrap" x="4.033" y="0" width="108.025" height="108.025" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_8" data-name="8" transform="translate(-29.606 -463.238)">
+    <g id="bootstrap" transform="translate(42.639 469.238)">
+      <g id="Rectangle_17" data-name="Rectangle 17" class="cls-1" transform="translate(18.005 19.13)">
+        <rect class="cls-4" width="56.266" height="67.519"/>
+        <rect class="cls-5" x="0.5" y="0.5" width="55.266" height="66.519"/>
+      </g>
+      <g id="Group_12" data-name="Group 12">
+        <g class="cls-6" transform="matrix(1, 0, 0, 1, -13.03, -6)">
+          <path id="Icon_awesome-bootstrap-2" data-name="Icon awesome-bootstrap" class="cls-2" d="M58.737,58.5c0,8.522-7.982,8.325-8.826,8.325H33.657V50.411H49.912c8.552,0,8.826,6.41,8.826,8.09ZM48.66,43.806c.135,0,7.724.2,7.724-7.3,0-3.119-.705-7.208-7.724-7.208h-15v14.5ZM90.025,17.255V77.27a15.049,15.049,0,0,1-15,15H15a15.049,15.049,0,0,1-15-15V17.255a15.049,15.049,0,0,1,15-15H75.02A15.049,15.049,0,0,1,90.025,17.255ZM67.931,59.693c0-4.334-1.336-11.713-9.857-13.534v-.147c4.6-1.965,7.5-5.677,7.5-11.181,0-1.407.4-13.017-15.594-13.017H24.464V74.328c25.768,0,28.107.338,32.875-1.147,2.855-.888,10.592-3.613,10.592-13.488Z" transform="translate(13.03 3.75)"/>
+        </g>
+      </g>
+    </g>
+    <text id="Bootstrap_5" data-name="Bootstrap 5" class="cls-3" transform="translate(87.606 599)"><tspan x="-57.63" y="0">Bootstrap 5</tspan></text>
+  </g>
+</svg>

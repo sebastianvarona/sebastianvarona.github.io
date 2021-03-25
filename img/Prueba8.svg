@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2560" height="1600" viewBox="0 0 2560 1600">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Prueba8);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.868" gradientTransform="matrix(0.696, -0.718, 0.699, 0.677, -0.197, 0.52)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2700ff"/>
+      <stop offset="1" stop-color="#04000d" stop-opacity="0.961"/>
+    </radialGradient>
+    <clipPath id="clip-Prueba8">
+      <rect width="2560" height="1600"/>
+    </clipPath>
+  </defs>
+  <g id="Prueba8" class="cls-1">
+    <rect class="cls-2" width="2560" height="1600"/>
+  </g>
+</svg>

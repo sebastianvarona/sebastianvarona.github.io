@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="225" height="225" viewBox="0 0 225 225">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #3f84e5;
+      }
+
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+    </style>
+  </defs>
+  <g id="puntos" transform="translate(-923 -410)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(923 410)"/>
+    <circle id="Ellipse_1-2" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(958 410)"/>
+    <circle id="Ellipse_1-3" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(993 410)"/>
+    <circle id="Ellipse_1-4" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 410)"/>
+    <circle id="Ellipse_1-5" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 410)"/>
+    <circle id="Ellipse_1-6" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 410)"/>
+    <circle id="Ellipse_1-7" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 410)"/>
+    <circle id="Ellipse_1-8" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(923 445)"/>
+    <circle id="Ellipse_1-9" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(958 445)"/>
+    <circle id="Ellipse_1-10" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(993 445)"/>
+    <circle id="Ellipse_1-11" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 445)"/>
+    <path id="Path_35" data-name="Path 35" class="cls-1" d="M7.5,0A7.5,7.5,0,1,1,0,7.5,7.5,7.5,0,0,1,7.5,0Z" transform="translate(1063 445)"/>
+    <circle id="Ellipse_1-12" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 445)"/>
+    <circle id="Ellipse_1-13" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 445)"/>
+    <circle id="Ellipse_1-14" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(923 480)"/>
+    <circle id="Ellipse_1-15" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(958 480)"/>
+    <circle id="Ellipse_1-16" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(993 480)"/>
+    <circle id="Ellipse_1-17" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 480)"/>
+    <circle id="Ellipse_1-18" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 480)"/>
+    <circle id="Ellipse_1-19" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 480)"/>
+    <circle id="Ellipse_1-20" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 480)"/>
+    <circle id="Ellipse_1-21" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(923 515)"/>
+    <circle id="Ellipse_1-22" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(958 515)"/>
+    <circle id="Ellipse_1-23" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(993 515)"/>
+    <circle id="Ellipse_1-24" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 515)"/>
+    <circle id="Ellipse_1-25" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 515)"/>
+    <circle id="Ellipse_1-26" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 515)"/>
+    <circle id="Ellipse_1-27" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 515)"/>
+    <circle id="Ellipse_1-28" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(923 550)"/>
+    <circle id="Ellipse_1-29" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(958 550)"/>
+    <circle id="Ellipse_1-30" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(993 550)"/>
+    <circle id="Ellipse_1-31" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 550)"/>
+    <circle id="Ellipse_1-32" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 550)"/>
+    <circle id="Ellipse_1-33" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 550)"/>
+    <circle id="Ellipse_1-34" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 550)"/>
+    <circle id="Ellipse_1-35" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(923 585)"/>
+    <circle id="Ellipse_1-36" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(958 585)"/>
+    <circle id="Ellipse_1-37" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(993 585)"/>
+    <circle id="Ellipse_1-38" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 585)"/>
+    <circle id="Ellipse_1-39" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 585)"/>
+    <circle id="Ellipse_1-40" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 585)"/>
+    <circle id="Ellipse_1-41" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 585)"/>
+    <circle id="Ellipse_1-42" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(923 620)"/>
+    <circle id="Ellipse_1-43" data-name="Ellipse 1" class="cls-2" cx="7.5" cy="7.5" r="7.5" transform="translate(958 620)"/>
+    <circle id="Ellipse_1-44" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(993 620)"/>
+    <circle id="Ellipse_1-45" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1028 620)"/>
+    <circle id="Ellipse_1-46" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1063 620)"/>
+    <circle id="Ellipse_1-47" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1098 620)"/>
+    <circle id="Ellipse_1-48" data-name="Ellipse 1" class="cls-1" cx="7.5" cy="7.5" r="7.5" transform="translate(1133 620)"/>
+  </g>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="800" viewBox="0 0 1500 800">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        opacity: 0.9;
+      }
+
+      .cls-2 {
+        fill: #fefefe;
+        stroke: #fefefe;
+        stroke-width: 3px;
+        font-size: 100px;
+        font-family: Poppins-Regular, Poppins;
+      }
+    </style>
+  </defs>
+  <g id="desarrollo..." transform="translate(-2913 -3636)">
+    <rect id="Rectangle_26" data-name="Rectangle 26" class="cls-1" width="1500" height="800" rx="150" transform="translate(2913 3636)"/>
+    <text id="En_Desarrollo_" data-name="En Desarrollo…" class="cls-2" transform="translate(3664 4059)"><tspan x="-352.2" y="0">En Desarrollo…</tspan></text>
+  </g>
+</svg>
